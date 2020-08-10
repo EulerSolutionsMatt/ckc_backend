@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Product;
 use Illuminate\Http\Request;
 
-class ApiController extends Controller
+class ProductController extends Controller
 {
 
     public function getAllProducts()
@@ -33,18 +33,26 @@ class ApiController extends Controller
             return response($product, 200);
         } else {
             return response()->json([
-                "message" => "Student not found"
+                "message" => "Product not found"
             ], 404);
         }
     }
 
     public function updateProduct(Request $request, $id)
     {
-        // logic to update a product record goes here
-    }
+        if (Product::where('id', $id)->exists()) {
+            $product = Product::find($id);
+            $product->title = is_null($request->title) ? $product->title : $request->title;
+            $product->description = is_null($request->description) ? $product->description : $request->description;
+            $product->save();
+            return response()->json([
+                "message" => "records updated successfully"
+            ], 200);
+        } else {
+            return response()->json([
+                "message" => "Product not found"
+            ], 404);
 
-    public function deleteProduct($id)
-    {
-        // logic to delete a product record goes here
+        }
     }
 }
