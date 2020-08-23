@@ -10,9 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d448152-38c4-4ee5-a6f9-baffcbe57597" name="Default Changelist" comment="update register() function to send user data">
+    <list default="true" id="8d448152-38c4-4ee5-a6f9-baffcbe57597" name="Default Changelist" comment="update login() to send user Obj &amp; remove password confirmation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ApiAuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ApiAuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +175,7 @@
       <workItem from="1597167920202" duration="1039000" />
       <workItem from="1597347228123" duration="155000" />
       <workItem from="1597594855386" duration="3063000" />
-      <workItem from="1598173416913" duration="3435000" />
+      <workItem from="1598173416913" duration="5336000" />
     </task>
     <task id="LOCAL-00001" summary="init api">
       <created>1596378110847</created>
@@ -205,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597600530917</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update login() to send user Obj &amp; remove password confirmation">
+      <created>1598180625205</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598180625206</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +234,8 @@
     <MESSAGE value="init api" />
     <MESSAGE value="add basic authentication" />
     <MESSAGE value="update register() function to send user data" />
-    <option name="LAST_COMMIT_MESSAGE" value="update register() function to send user data" />
+    <MESSAGE value="update login() to send user Obj &amp; remove password confirmation" />
+    <option name="LAST_COMMIT_MESSAGE" value="update login() to send user Obj &amp; remove password confirmation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="714" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596561847899">
@@ -242,10 +250,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596392468631" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1597600532489">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1598180627022">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597600532489" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598180627022" />
     <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1598178888819">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
