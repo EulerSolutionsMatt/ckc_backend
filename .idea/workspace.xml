@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d448152-38c4-4ee5-a6f9-baffcbe57597" name="Default Changelist" comment="add basic authentication">
+    <list default="true" id="8d448152-38c4-4ee5-a6f9-baffcbe57597" name="Default Changelist" comment="update register() function to send user data">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ApiAuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ApiAuthController.php" afterDir="false" />
     </list>
@@ -174,7 +174,8 @@
       <workItem from="1597089408852" duration="2893000" />
       <workItem from="1597167920202" duration="1039000" />
       <workItem from="1597347228123" duration="155000" />
-      <workItem from="1597594855386" duration="1556000" />
+      <workItem from="1597594855386" duration="3063000" />
+      <workItem from="1598173416913" duration="3435000" />
     </task>
     <task id="LOCAL-00001" summary="init api">
       <created>1596378110847</created>
@@ -197,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597089456381</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update register() function to send user data">
+      <created>1597600530917</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597600530917</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +226,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init api" />
     <MESSAGE value="add basic authentication" />
-    <option name="LAST_COMMIT_MESSAGE" value="add basic authentication" />
+    <MESSAGE value="update register() function to send user data" />
+    <option name="LAST_COMMIT_MESSAGE" value="update register() function to send user data" />
   </component>
   <component name="WindowStateProjectService">
     <state x="714" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596561847899">
@@ -233,9 +242,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596392468631" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1597089464619">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1597600532489">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597089464619" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597600532489" />
+    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1598178888819">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598178888819" />
   </component>
 </project>
