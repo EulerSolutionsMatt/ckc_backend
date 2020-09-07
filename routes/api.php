@@ -8,7 +8,6 @@ use Illuminate\Support\Facades\Route;
 Route::group(['middleware' => ['cors', 'json.response']], function () {
     Route::post('/login', 'Auth\ApiAuthController@login')->name('login.api');
     Route::post('/register', 'Auth\ApiAuthController@register')->name('register.api');
-    Route::post('/logout', 'Auth\ApiAuthController@logout')->name('logout.api');
     Route::get('products', 'ProductController@getAllProducts');
     Route::get('products/{id}', 'ProductController@getProduct');
     Route::post('products', 'ProductController@createProduct');
@@ -18,6 +17,7 @@ Route::group(['middleware' => ['cors', 'json.response']], function () {
 
 // protected routes
 Route::middleware('auth:api')->group(function () {
+    Route::post('/logout', 'Auth\ApiAuthController@logout')->name('logout.api');
     Route::get('/user', function (Request $request) {
         return $request->user();
     });
